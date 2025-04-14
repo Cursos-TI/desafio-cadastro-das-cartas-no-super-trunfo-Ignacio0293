@@ -62,8 +62,8 @@
         pibpc2 = (float) pib2/populacao2;
         //Aqui adicionei as operações matemáticas aprendidas no nivel aventureiro para realizar a segunda parte do desafio
 
-        superpoder1 = (float)populacao1+area1+pib1+turismo1+pibpc1+(1/densidade1);//formatação do calculo do superpoder, sendo a densidade somada pelo inverso
-        superpoder2 = (float)populacao2+area2+pib2+turismo2+pibpc2+(1/densidade2);
+        superpoder1 = (float) populacao1+area1+pib1+turismo1+pibpc1+(1/densidade1);//formatação do calculo do superpoder, sendo a densidade somada pelo inverso
+        superpoder2 = (float) populacao2+area2+pib2+turismo2+pibpc2+(1/densidade2);
 
         printf("Perfeito, %s, a seguir você pode conferir os dados das duas cartas cadastradas para o nosso Super trunfo. Além disso, também irei calcular os resultados da Densidade populacional, doPIB per capita e o Super Poder:\n", nome);
         printf("\n");
@@ -79,7 +79,7 @@
         printf("Quantidade de pontos turísticos: %d\n", turismo1);
         printf ("Densidade populacional: %.2f habitantes por km²\n", densidade1);
         printf("PIB per Capita: %.2f Reais\n",pibpc1);
-        printf ("E o Super Poder da Carta %S é: %.2f\n", codigo1,superpoder1);
+        printf ("E o Super Poder da Carta:%.2f\n", superpoder1);
         printf("\n");
 
 
@@ -93,7 +93,7 @@
         printf("Quantidade de pontos turísticos: %d\n", turismo2);
         printf ("Densidade populacional: %.2f habitantes por km²\n", densidade2);
         printf("PIB per Capita: %.2f Reais\n",pibpc2);
-        printf ("E o Super Poder da Carta %S é: %.2f\n", codigo2,superpoder2);
+        printf ("E o Super Poder da Carta:%.2f\n", superpoder2);
         printf("\n");
 
         printf("Comparação de Cartas:\n");//apresentação do resultado do jogo
